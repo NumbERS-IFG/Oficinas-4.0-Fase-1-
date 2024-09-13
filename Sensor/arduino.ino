@@ -1,7 +1,7 @@
 #define USE_ARDUINO_INTERRUPTS true
 #include <PulseSensorPlayground.h>
 
-//  Variables
+//  Variavel
 const int PulseWire = A0;      // Usar A0 para o NodeMCU
 const int LED = 13;            // Usar D7 (pino 13) para o NodeMCU
 int Threshold = 550;
